@@ -6,7 +6,7 @@ df_test <- read.table("X_test.txt")
 df_train_plus_test <- rbind(df_train, df_test)                                  
 ##dim(df_train);dim(df_test);dim(df_train_plus_test)           #for dim check                 
 
-###################################################################################################################################################################################################################Read the training and test set values and row bind them to form one data set 
+##################################################################################################################################################################################################################
 ##Get only mean() and std() measurement/features from features.txt from df_train_plus_test
 ##For this first need to get the indices for mean() and std() measurement columns and then extract those columns from df_train_plus_test data set
 ##Change the columns names to little better descriptive names - "mean()" changed to "Mean", "std()" changed to "StandardDeviation"
@@ -21,7 +21,7 @@ df_features_modified <- gsub("std", "StandardDeviation", df_features_modified)
 df_features_modified <- gsub("-", "_", df_features_modified)
 names(df_train_plus_test_mean_std_vars) <- df_features_modified                          #df_train_plus_test_mean_std_vars with modified column/feature names 
 
-#################################################################################################################################################################################################################df_train_label <- read.table("y_train.txt")
+#################################################################################################################################################################################################################
 ##Create activity data set (train + test) with descriptive activity names/labels for y values and rename the column as "activity"
 
 df_train_label <- read.table("y_train.txt")
