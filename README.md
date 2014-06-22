@@ -55,7 +55,9 @@
 		- Labels_Features_tidy_data_1.txt
 		- tidy_data_2.txt
 		- Labels_Features_tidy_data_2.txt
-		- Codebook.md - which is a listing of the column names of the tidy_data_2.txt i.e. it is same as Labels_Features_tidy_data_2.txt
+		- Codebook.md - which is a listing of the column names of the tidy_data_2.txt i.e. it is same as Labels_Features_tidy_data_2.txt. 
+		The raw version of the codebook.md gives the column names in different rows. 
+					
 
 4) File Uploaded in Coursera Site
 		- tidy_data_2.txt
